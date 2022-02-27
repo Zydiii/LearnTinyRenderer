@@ -17,9 +17,9 @@ Model::Model(const char *filename) : verts_(), faces_() {
         if (!line.compare(0, 2, "v ")) {
             iss >> trash;
             Vec3f v;
-            for (int i=0;i<3;i++) iss >> v.raw[i];
-            for (int i=0;i<3;i++) v.raw[i] /= 12;
-            v.raw[1] -= 0.95;
+            for (int i=0;i<3;i++) iss >> v[i];
+            for (int i=0;i<3;i++) v[i] /= 12;
+            v[1] -= 0.95f;
             verts_.push_back(v);
         } else if (!line.compare(0, 2, "f ")) {
             std::vector<int> f;

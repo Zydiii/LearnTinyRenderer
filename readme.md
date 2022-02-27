@@ -8,6 +8,10 @@
 
 ![](./result/output-1.png)
 
-## 自制渲染器画八重神子（三）计算深度
-
 ![](./result/output-2.png)
+
+## 自制渲染器画八重神子（三）深度计算
+
+![](./result/output-3.png)
+
+![](./result/output-4.png)
