@@ -4,3 +4,6 @@
 
 ![](./result/output-0.png)
 
+## 自制渲染器画八重神子（二）绘制三角面片
+
+![](./result/output-1.png)
